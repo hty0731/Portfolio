@@ -84,23 +84,23 @@ with col4:
     st.warning('Google Analytics')
 
 ### Time line
-st.subheader('Education and Professional Experiences')
+#st.subheader('Education and Professional Experiences')
 
 from streamlit_timeline import st_timeline
 
 
-items = [
-    {"Title": 'Bachelor Student', "content": "National Taiwan University", "start": "2015-09", "end":"2019-06", "description":"aaa"},
-    {"Title": 'Project Management Intern', "content": "Uber", "start": "2017-11","end":"2018-05"},
-    {"Title": "Marketing Analytics Intern", "content": "Baidu", "start": "2018-06","end":"2018-08"},
-    {"Title": "Ecommerce Sales Analyst, Key Account Supervisor", "content": "Loreal", "start": "2019-07", "end":"2022-05"},
-    {"Title": "Master Student", "content": "Columbia University", "start": "2022-09", "end":"2023-12"},
-    {"Title": "Data Analyst", "content": "Veritas Technologies", "start": "2023-05","end":"2023-09"},
-]
+#items = [
+    #{"Title": 'Bachelor Student', "content": "National Taiwan University", "start": "2015-09", "end":"2019-06", "description":"aaa"},
+    #{"Title": 'Project Management Intern', "content": "Uber", "start": "2017-11","end":"2018-05"},
+    #{"Title": "Marketing Analytics Intern", "content": "Baidu", "start": "2018-06","end":"2018-08"},
+    #{"Title": "Ecommerce Sales Analyst, Key Account Supervisor", "content": "Loreal", "start": "2019-07", "end":"2022-05"},
+    #{"Title": "Master Student", "content": "Columbia University", "start": "2022-09", "end":"2023-12"},
+    #{"Title": "Data Analyst", "content": "Veritas Technologies", "start": "2023-05","end":"2023-09"},
+#]
 
-timeline = st_timeline(items, groups=[], options={}, height="300px")
-st.write("Click on the timeline to know more!")
-st.write(timeline)
+#timeline = st_timeline(items, groups=[], options={}, height="300px")
+#st.write("Click on the timeline to know more!")
+#st.write(timeline)
 
 
 ### Sidebar
