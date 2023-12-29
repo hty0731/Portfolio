@@ -86,7 +86,7 @@ with col4:
 ### Time line
 #st.subheader('Education and Professional Experiences')
 
-from streamlit_timeline import st_timeline
+#from streamlit_timeline import st_timeline
 
 
 #items = [
